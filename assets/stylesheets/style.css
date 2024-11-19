@@ -1,0 +1,93 @@
+/* Custom Fonts */
+@font-face {
+    font-family: 'BookFont';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(114, 79, 134);
+    background: linear-gradient(90deg, rgb(182, 115, 245) 0%, rgb(172, 101, 230) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white !important;
+}
+
+h1,
+h2,
+h3,
+p
+ {
+    font-family: 'BookFont', sans-serif;
+    color: #333;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .carousel{
+    width: 900px;
+    height: 50vh;
+} */
+
+.imgContainer {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 600px;
+
+
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+
+}
+
+img {
+    width: 200px !important;
+}
+
+/* Ensure responsiveness */
+@media (min-width: 300px) and (max-width: 768px) {
+    .carousel-inner img {
+        height: 250px;
+    
+    }
+    .imgContainer {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+    }
+    
+    .carousel-item {
+        width: 100%;
+        height: 250px;
+    
+    
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: 250px;
+    
+    }
+}
